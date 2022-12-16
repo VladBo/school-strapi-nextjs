@@ -5,23 +5,18 @@
     "singularName": "category",
     "pluralName": "categories",
     "displayName": "Category",
-    "name": "category",
-    "description": ""
+    "description": "Organize your content into categories"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "slug": {
-      "type": "uid",
-      "targetField": "name",
-      "required": true
+      "type": "uid"
     },
     "articles": {
       "type": "relation",
@@ -30,12 +25,7 @@
       "mappedBy": "category"
     },
     "description": {
-      "type": "richtext"
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+      "type": "text"
     }
   }
 }
