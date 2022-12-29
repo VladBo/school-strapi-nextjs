@@ -13,7 +13,7 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.5.2",
     "@strapi/plugin-users-permissions": "4.5.2",
-    "@strapi/strapi": "4.5.2",
+    "@strapi/strapi": "4.5.5",
     "@types/lodash": "^4.14.190",
     "@types/mime-types": "^2.1.1",
     "mysql": "^2.18.1"
